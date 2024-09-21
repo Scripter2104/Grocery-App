@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".AddGrocery">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Name : "
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="HardcodedText,SpUsage">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etGroceryName"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20dp"
+            android:hint="Enter Grocery Name"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,SpUsage,TextFields">
+
+        </EditText>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Price : "
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="HardcodedText,SpUsage">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etGroceryPrice"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20dp"
+            android:hint="Enter Grocery Price "
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,SpUsage,TextFields">
+
+        </EditText>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Unit : "
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="HardcodedText,SpUsage">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etGroceryUnit"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20dp"
+            android:hint="Enter Unit "
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,SpUsage,TextFields">
+
+        </EditText>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Qty : "
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="HardcodedText,SpUsage">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20dp"
+            android:hint="Enter Quantity"
+            android:inputType="number"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,SpUsage,TextFields">
+
+        </EditText>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        tools:ignore="UselessLeaf,UselessParent">
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btUpdate"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="230dp"
+            android:text="Update"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btCancle"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="230dp"
+            android:text="Cancle"
+            android:textSize="15dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage">
+
+        </Button>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

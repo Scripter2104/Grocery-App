@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".AdminAccess">
+
+    <TextView
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Admin Access"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        tools:ignore="HardcodedText,SpUsage">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessLeaf">
+
+        <Button
+
+            android:id="@+id/btAddGrocery"
+            android:text="Add grocery"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessLeaf">
+        <Button
+            android:id="@+id/btShowGrocery"
+            android:text="Show grocery"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessLeaf">
+
+        <Button
+            android:id="@+id/btUpdateDelete"
+            android:text="Update/Del"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessLeaf">
+        <Button
+            android:text="Update grocery"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessLeaf">
+        <Button
+            android:text="Change Admin"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_color"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

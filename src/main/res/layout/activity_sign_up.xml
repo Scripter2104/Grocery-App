@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:background="#343434"
+    tools:context=".logins.SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/top_background"
+        tools:ignore="UselessLeaf">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="110dp"
+            android:text="Create\nAccount"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingLeft="30dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        tools:ignore="UselessLeaf">
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="90dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+        <EditText
+            android:id="@+id/etRePassword"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="270dp"
+            android:ems="10"
+            android:hint="Re-Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:ignore="Autofill,HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/name"
+            tools:ignore="ContentDescription,RtlHardcoded">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/email"
+            tools:ignore="ContentDescription,RtlHardcoded">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/password"
+            tools:ignore="ContentDescription,RtlHardcoded">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/password"
+            tools:ignore="ContentDescription,RtlHardcoded">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        tools:ignore="UselessLeaf">
+
+        <ImageView
+            android:id="@+id/imageViewSignIn"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_login"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/signUpButton"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textColor="#FFC201"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="90dp"
+            android:text="Already have an account? Sign in"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
